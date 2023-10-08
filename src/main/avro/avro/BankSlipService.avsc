@@ -1,0 +1,33 @@
+{
+  "type": "record",
+  "namespace": "com.glauber.avro.bank_slip_record",
+  "name": "BankSlipRecord",
+  "version": "1",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long",
+      "doc": "Identificador do boleto"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "doc": "Nome do dono do boleto"
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "doc": "E-mail que receberá o boleto"
+    },
+    {
+      "name": "cpf",
+      "type": "string",
+      "doc": "Cpf do dono do boleto"
+    },
+    {
+      "name": "value",
+      "type": "double",
+      "doc": "Valor do boleto"
+    }
+  ]
+}
